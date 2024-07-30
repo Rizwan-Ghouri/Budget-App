@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+/** ------------MAIN CONTINER------------ */
+.continer{
+    width: 90%;
+    height: auto;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+    background-color: #35a5d4;
+    margin: 1% 5%;
+    padding: 10px;
+    display: flex;
+}
+/** ------------BUDGET CONTINER------------ */
+
+.budget_con{
+    width:  100%;
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    padding: 2%;
+    margin: 2%;
+    background-color: lightblue;
+}
+/** ------------EXPENSES CONTINER------------ */
+.expenses_con{
+    width:  100%;
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    padding: 2%;
+    margin: 2%;
+    background-color: lightblue;
+}
+/** ------------Budget,Expenses Heading------------ */
+.continer_heading{
+    font-size: xx-large;
+    letter-spacing: 2px;
+    color: #b10101;
+}
+/** ------------Budget,Expenses input------------ */
+.input{
+    width: 100%;
+    padding: 1%;
+    border-radius: 10px;
+    font-size: larger;
+    outline: none;
+    background-color: lightblue;
+}
+/** ------------Budget,Expenses button------------ */
+.btn{
+    width: 30%;
+    padding: 1%;
+    margin-left: 2%;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: 600;
+    color: #fff;
+    background-color: #b10101;
+}
+
+/** -------------------list continer------------------- */
+.continer-list{
+    width: 90%;
+    height: auto;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+    background-color: #35a5d4;
+    margin: 1% 5%; 
+    padding: 10px;
+}
+/** -------------------Title continer------------------- */
+.titel-con{
+    /* width: 100%; */
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    padding: 1px;
+    display: flex;
+}
+/** -------------------Title heading------------------- */
+h4{
+    color: #b10101;
+}
+.title{
+    width: 100%;
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    background-color: lightblue;
+    font-size: x-large;
+    letter-spacing: 1px;
+    line-height: 2rem;
+    text-align: center;
+    margin: 2%;
+}
+/** -------------------list continer------------------- */
+.list-con{
+    /* width: 100%; */
+    height: auto;
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    background-color: lightblue;
+    text-align: center;
+    padding: 1px;
+
+}
+/** -------------------list heading------------------- */
+.list_heading{
+    font-size: xx-large;
+    letter-spacing: 2px;
+    color: #b10101;
+}
+/** -------------------list------------------- */
+.ulist{
+    /* width: 100%; */
+    /* border: 1px solid red; */
+    border-radius: 10px;
+}
+/** -------------------list title------------------- */
+.list_Div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.list_title_Div{
+    width: 100%;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+/** -------------------Javascript list title------------------- */
+.list_Title{
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+/** -------------------javascript list item------------------- */
+.list_item{
+    width: 100%;
+    /* padding: 10rem; */
+    font-size: large;
+    font-weight: bolder;
+}
+/** -------------------javascript list button------------------- */
+.list_btn{
+    width: 50%;
+    padding: 1%;
+    font-size: large;
+    font-weight: 600;
+    color: #fff;
+    background-color:#b10101;    
+    border-radius: 10px;
+}

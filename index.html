@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="continer">
+        <div class="budget_con">
+            <h4 class="continer_heading">Budget</h4>
+            <br>
+            <input class="input" id="inpBudget" type="number" placeholder="Enter Budget">
+            <br><br>
+            <button class="btn" id="btnBudget"> Set Budget</button>
+            <button class="btn" id="btnNew">New Budget</button>
+        </div>
+        <div class="expenses_con">
+            <h4 class="continer_heading">Expenses</h4>
+            <br>
+            <input class="input" id="inpExpName" type="text" placeholder="Enter Titel Of Product">
+            <br><br>
+            <input class="input" id="inpExp" type="number" placeholder="Enter Cost Of The Post">
+            <br><br>
+            <button class="btn" id="btnExp">Check Amount</button>
+        </div>
+    </div>
+    <div class="continer-list">
+        <div class="titel-con">
+            <div class="title">
+                <h4>Total Budget</h4>
+                <strong id="Bug_text">000</strong>
+            </div>
+            <div class="title">
+                <h4>Expenses</h4>
+                <strong id="Exp_text">000</strong>
+            </div>
+            <div class="title">
+                <h4>Balance</h4>
+                <strong id="Bal_text">000</strong>
+            </div>
+        </div>
+        <div class="list-con">
+            <h4 class="list_heading">Expenses list</h4>
+            <br>
+            <div class="list_Div">
+                <h5 class="list_title_Div">Name</h5>
+                <h5 class="list_title_Div">Expenses</h5>
+                <h5 class="list_title_Div">Delete</h5>
+            </div>
+            <ul class="ulist" id="ulist">
+            </ul>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert2/11.12.3/sweetalert2.all.js" integrity="sha512-ch8WSvHL/CKOt82FEwjcjYN5LyzX6Na2l4pdFPzTkVlWsvpkncRn3S/Ih2iIT66XfLCalZqmOb3SqRLwm2v/qA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</body>
+</html>
