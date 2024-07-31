@@ -15,6 +15,51 @@
     margin: 1% 5%;
     padding: 10px;
     display: flex;
+    /* flex-direction: row; */
+}
+@media (max-width : 555px),(max-width : 420px),(max-width : 845px) {
+    .continer{
+        width: 90%;
+        height: auto;
+        /* border: 1px solid red; */
+        border-radius: 20px;
+        background-color: #35a5d4;
+        margin: 1% 5%;
+        padding: 10px;
+        display: flex;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+    }
+    /** ------------Budget,Expenses input------------ */
+    .input{
+        width: auto;
+        padding: 1%;
+        border-radius: 10px;
+        font-size: larger;
+        outline: none;
+        background-color: lightblue;
+    }
+    /** ------------Budget,Expenses button------------ */
+    .btn{
+        width: 30%;
+        padding: 1%;
+        margin-left: 2%;
+        border-radius: 10px;
+        font-size: large;
+        font-weight: 600;
+        color: #fff;
+        background-color: #b10101;
+    }
+  /** -------------------Title continer------------------- */
+    .titel-con{
+        /* width: 100%; */
+        /* border: 1px solid red; */
+        border-radius: 10px;
+        padding: 1px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
 }
 /** ------------BUDGET CONTINER------------ */
 
@@ -43,7 +88,7 @@
 }
 /** ------------Budget,Expenses input------------ */
 .input{
-    width: 100%;
+    width: 99%;
     padding: 1%;
     border-radius: 10px;
     font-size: larger;
@@ -52,7 +97,7 @@
 }
 /** ------------Budget,Expenses button------------ */
 .btn{
-    width: 30%;
+    width: 40%;
     padding: 1%;
     margin-left: 2%;
     border-radius: 10px;
