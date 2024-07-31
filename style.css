@@ -17,7 +17,7 @@
     display: flex;
     /* flex-direction: row; */
 }
-@media (max-width : 555px),(max-width : 420px),(max-width : 845px) {
+@media screen and (max-width : 555px),(max-width : 420px),(max-width : 845px) {
     .continer{
         width: 90%;
         height: auto;
