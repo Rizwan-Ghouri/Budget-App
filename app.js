@@ -68,8 +68,8 @@ btnExpenses.addEventListener('click',()=>{
 })
 //* ====================button New Budget ======================
 btnNewBudget.addEventListener('click',()=>{
-    textBudget.innerText = ''
-    textBalance.innerText = ''
-    textExpenses.innerText = ''
+    textBudget.innerText = '000'
+    textBalance.innerText = '000'
+    textExpenses.innerText = '000'
     addlist.innerHTML = ''
 })
